@@ -35,6 +35,7 @@ serde = [
     "solana-slot-hashes/serde",
     "solana-slot-history/serde",
     "solana-stake-interface/serde",
+    "solana-slot-summary/serde"
 ]
 
 [dependencies]
@@ -64,6 +65,7 @@ solana-slot-hashes = { workspace = true, features = ["sysvar"] }
 solana-slot-history = { workspace = true, features = ["sysvar"] }
 solana-stake-interface = { workspace = true }
 solana-sysvar-id = { workspace = true }
+solana-slot-summary = {workspace = true , features = ["sysvar"]}
 
 [target.'cfg(not(target_os = "solana"))'.dependencies]
 base64 = { workspace = true }

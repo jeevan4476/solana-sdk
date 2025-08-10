@@ -87,7 +87,7 @@ members = [
     "signature",
     "signer",
     "slot-hashes",
-    "slot-history",
+    "slot-history", "slot-summary",
     "stable-layout",
     "system-transaction",
     "sysvar",
@@ -221,6 +221,7 @@ solana-bn254 = { path = "bn254", version = "2.2.2" }
 solana-borsh = { path = "borsh", version = "2.2.1" }
 solana-client-traits = { path = "client-traits", version = "2.2.1" }
 solana-clock = { path = "clock", version = "2.2.1" }
+solana-slot-summary = { path = "slot-summary", version = "1.0.0"}
 solana-cluster-type = { path = "cluster-type", version = "2.2.1" }
 solana-commitment-config = { path = "commitment-config", version = "2.2.1" }
 solana-compute-budget-interface = { path = "compute-budget-interface", version = "2.2.1" }
@@ -366,3 +367,4 @@ solana-pubkey = { path = "pubkey" }
 solana-rent = { path = "rent" }
 solana-signature = { path = "signature" }
 solana-sysvar-id = { path = "sysvar-id" }
+solana-slot-summary = {path = "slot-summary"}

@@ -4013,6 +4013,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "solana-slot-summary"
+version = "1.0.0"
+dependencies = [
+ "serde",
+ "serde_derive",
+ "solana-frozen-abi",
+ "solana-frozen-abi-macro",
+ "solana-sdk-ids",
+ "solana-sdk-macro",
+ "solana-slot-summary",
+ "solana-sysvar-id",
+ "static_assertions",
+]
+
+[[package]]
 name = "solana-stable-layout"
 version = "2.2.1"
 dependencies = [
@@ -4107,6 +4122,7 @@ dependencies = [
  "solana-sha256-hasher",
  "solana-slot-hashes",
  "solana-slot-history",
+ "solana-slot-summary",
  "solana-stake-interface",
  "solana-sysvar",
  "solana-sysvar-id",
